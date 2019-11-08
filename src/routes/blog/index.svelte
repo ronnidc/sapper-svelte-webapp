@@ -15,6 +15,13 @@
 		margin: 0 0 1em 0;
 		line-height: 1.5;
 	}
+	li {
+		margin: .5em 0;
+	}
+	li a {
+		display: inline-block;
+		padding: .5em .2em;
+	}
 </style>
 
 <svelte:head>
