@@ -27,7 +27,7 @@
 
 	@media (min-width: 480px) {
 		h1 {
-			font-size: 4em;
+			font-size: 3em;
 		}
 	}
 </style>
@@ -36,11 +36,11 @@
 	<title>Sapper project template</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Sapper!</h1>
 
 <figure>
 	<img alt='Borat' src='great-success.png'>
-	<figcaption>HIGH FIVE!</figcaption>
+	<figcaption>The next small thing in web development</figcaption>
 </figure>
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p><strong>Powered by Svelte</strong></p>
