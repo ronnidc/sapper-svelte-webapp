@@ -51,6 +51,11 @@ import { files } from '@sapper/service-worker';
 
 Sapper uses Rollup or webpack to provide code-splitting and dynamic imports, as well as compiling your Svelte components. With webpack, it also provides hot module reloading. As long as you don't do anything daft, you can edit the configuration files to add whatever plugins you'd like.
 
+## Sass compiler
+
+Sass has been setup in this project using the guide in this article
+[medium.com/svelte-sapper-with-sass..](https://medium.com/@sean_27490/svelte-sapper-with-sass-271fff662da9)
+
 ## Production mode and deployment
 
 To start a production version of your app, run `npm run build && npm start`. This will disable live reloading, and activate the appropriate bundler plugins.
